@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap4.aux
+The style file: uriref.bst
+A level-1 auxiliary file: appA.aux
+A level-1 auxiliary file: appB.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Warning--I didn't find a database entry for "calderwood"
+ 
+-- University of Rhode Island references, version 1.1 (2005/07/12),
+--  based on IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
+--  http://www.ele.uri.edu/info/thesis/uritex/uriref.bst
+-- See the manual "IEEEtran_bst_HOWTO.pdf" for usage information,
+--  available at http://www.ele.uri.edu/info/thesis/IEEEtran_bst_HOWTO.pdf
+Too many commas in name 1 of "D.Emm, R.Unuchek, M.Garnaeva, A.Ivanov, D.Makrushin, F.Sinitsyn" for entry emm
+while executing---line 2399 of file uriref.bst
+Too many commas in name 1 of "D.Emm, R.Unuchek, M.Garnaeva, A.Ivanov, D.Makrushin, F.Sinitsyn" for entry emm
+while executing---line 2399 of file uriref.bst
+Too many commas in name 1 of "D.Emm, R.Unuchek, M.Garnaeva, A.Ivanov, D.Makrushin, F.Sinitsyn" for entry emm
+while executing---line 2399 of file uriref.bst
+Warning--empty journal in emm
+
+Done.
+You've used 10 entries,
+            3985 wiz_defined-function locations,
+            864 strings with 9437 characters,
+and the built_in function-call counts, 6937 in all, are:
+= -- 513
+> -- 168
+< -- 46
++ -- 90
+- -- 30
+* -- 323
+:= -- 1037
+add.period$ -- 23
+call.type$ -- 10
+change.case$ -- 12
+chr.to.int$ -- 120
+cite$ -- 11
+duplicate$ -- 511
+empty$ -- 627
+format.name$ -- 38
+if$ -- 1594
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 96
+newline$ -- 51
+num.names$ -- 10
+pop$ -- 251
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 529
+stack$ -- 0
+substring$ -- 292
+swap$ -- 376
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 0
+warning$ -- 1
+while$ -- 32
+width$ -- 12
+write$ -- 107
+(There were 3 error messages)

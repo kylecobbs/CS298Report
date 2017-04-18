@@ -1,0 +1,75 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\addcustomcontentsline
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{emm}
+M.~A. D.~F. D.Emm, R.Unuchek, ``It threat evolution in q2 2016,'' 2016,
+  accessed 2016-10-10.
+
+\bibitem{Apvrille}
+A.Apvrille and R.Nigam, ``Obfuscation in android malware, and how to fight
+  back,'' \emph{Virus Bulletin}, pp. 1--10, 2014.
+
+\bibitem{Christodorescu}
+M.Christodorescu and S.Jha, ``Testing malware detectors,'' in \emph{ACM SIGSOFT
+  international symposium on Software testing and analysis}, New York, NY, USA,
+  2004, pp. 34--44.
+
+\bibitem{gordon}
+S.~Gordon and R.~Ford, ``Real world anti-virus product reviews and
+  evaluations--the current state of affairs,'' in \emph{Proceedings of the 1996
+  National Information Systems Security Conference}, 1996.
+
+\bibitem{barak}
+B.~Barak, O.~Goldreich, R.~Impagliazzo, S.~Rudich, A.~Sahai, S.~Vadhan, and
+  K.~Yang, ``On the (im) possibility of obfuscating programs,'' in \emph{Annual
+  International Cryptology Conference}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Springer, 2001, pp. 1--18.
+
+\bibitem{rastogi}
+V.~Rastogi, Y.~Chen, and X.~Jiang, ``Droidchameleon: evaluating android
+  anti-malware against transformation attacks,'' in \emph{Proceedings of the
+  8th ACM SIGSAC symposium on Information, computer and communications
+  security}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2013, pp. 329--334.
+
+\bibitem{google}
+Google, ``Android security 2014 year in review,''
+  \url{https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_2014_Report_Final.pdf},
+  accessed 2016-12-01.
+
+\bibitem{rasthofer2015}
+S.~Rasthofer, I.~Asrar, S.~Huber, and E.~Bodden, ``An investigation of the
+  android/badaccents malware which exploits a new android tapjacking attack,''
+  Technical report, TU Darmstadt, Fraunhofer SIT and McAfee Mobile Research,
+  Tech. Rep., 2015.
+
+\bibitem{chen2014peeking}
+Q.~A. Chen, Z.~Qian, and Z.~M. Mao, ``Peeking into your app without actually
+  seeing it: Ui state inference and novel android attacks,'' in \emph{23rd
+  USENIX Security Symposium (USENIX Security 14)}, 2014, pp. 1037--1052.
+
+\bibitem{androsimilar}
+P.~Faruki, V.~Ganmoor, V.~Laxmi, M.~S. Gaur, and A.~Bharmal, ``Androsimilar:
+  robust statistical feature signature for android malware detection,'' in
+  \emph{Proceedings of the 6th International Conference on Security of
+  Information and Networks}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2013,
+  pp. 152--159.
+
+\end{thebibliography}

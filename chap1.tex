@@ -1,0 +1,34 @@
+\chapter{Introduction}
+
+Android malware proliferation is rising exponentially. In the second quarter of 2016, 3.5 million Android malware were detected ~\cite{emm}. This rapid increase in Android malware has placed the focus on Android security and made it imperative to develop more efficient defensive tools for
+combating malware. One of the challenges faced in this area is the use of code obfuscation techniques. Code obfuscation is a method of altering a source code to hide its actual purpose. There are many ways of obfuscating a source code in an Android environment. Several software
+applications that are available off the shelf can be used to achieve different levels of code obfuscation ~\cite{Apvrille}. In order to address the problem of strengthening malware detector\rq s strength, there are two fundamental questions that need to be addressed, as highlighted by Christodorescu et al.~\cite{Christodorescu}:
+
+\begin{enumerate}
+	\item Question 1: How resistant is a malware detector to obfuscations or variants of known malware? 
+	\item Question 2: Can using limitations of a malware detector in handling obfuscations determine its detection algorithm?
+\end{enumerate}
+The two questions above can be used as a way to gauge how good a malware detector will perform against obfuscated code.
+
+\section{Code Obfuscation} 
+
+Code obfuscation is the process by which source code is manipulated to hide its true intentions. Code obfuscation is increasingly becoming a common tool to avoid detection by traditional malware detectors.
+
+There are many different types of code obfuscation. The most basic type of code obfuscation involves the encryption of all the strings that are used in the code. This overrides the detection mechanism of most of the traditional malware detectors. Some advanced malware detectors account for this encryption and are able to identify malware files. There are a host of other obfuscation techniques that can be employed by malware writers. Some of these include the obfuscation of function calls, permission hiding, and insertion of dead code.
+
+
+\section{Challenges}
+
+The challenges associated with code obfuscation primarily deal with the problem of maintaining the core functionality of the code, while making it  difficult for malware detectors to detect their true purpose. This challenge becomes easier for malware writers when dealing with Android malware. The reason for this is associated with the permission levels of applications running on Android platform. Unlike anti-virus programs that run on computers, the Android system provides the same set of permission levels to the anti-virus application and the application that is being scanned. This is a major limitation for malware detector writers.
+
+With the advent of more sophisticated tools for the encryption of source code for malware files, it is becoming increasingly difficult to differentiate instances where obfuscation is used for a genuine security reason and instances where it is being used with a malicious intent.
+
+\section{Objective}
+
+The primary objective of this project is to make malware detectors more responsive to the code obfuscation techniques employed by malware writers. The objectives can be broken down into the following two points:
+\begin{enumerate}
+	\item 1.Identify the malware features that are used by a malware detector by encrypting it.
+	\item 2.Modify an existing malware detector to overcome the limitations of code obfuscation.
+\end{enumerate}
+
+The first step in implementation will be the identification of the factors in a malware that are taken into consideration by a malware detector. To achieve this, we will begin by encrypting various parameters of a malware and running it through a malware detector ~\cite{gordon}. By following this approach, we can identify the exact scenario when a malware is no longer classified as a malware by our malware detector. Once we identify the features that are required by a malware detector, we will use this information to make the malware detectors process the obfuscated part of the code as well. This will make our malware detector more robust and improve their performance.
