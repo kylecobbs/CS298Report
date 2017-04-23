@@ -11,13 +11,12 @@
 \contentsline {section}{\numberline {2.2}\hspace {-1.7em}OBFUSCATION IN ANDROID MALWARE}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}\hspace {-1.7em}STATISTICAL ANALYSIS TECHNIQUES AND ANDROID MALWARE}{6}{subsection.2.2.1}
 \contentsline {section}{\numberline {2.3}\hspace {-1.7em}Conclusion}{7}{section.2.3}
-\contentsline {chapter}{\numberline {3}The Files}{8}{chapter.3}
-\contentsline {chapter}{\numberline {4}Cats}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}\hspace {-1.7em}Career Goals}{10}{section.4.1}
-\contentsline {chapterx}{LIST OF REFERENCES}{11}{chapter*.8}
+\contentsline {chapter}{\numberline {3}Code Obfuscation}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}\hspace {-1.7em}Growth of Obfuscation in Software Development}{8}{section.3.1}
+\contentsline {chapterx}{LIST OF REFERENCES}{10}{chapter*.7}
 {\vskip 1.0ex plus\p@ {\bfseries \noindent APPENDIX \hfill }}
  
-\contentsline {chapterapp}{\numberline {A}Zorak Likes Beans}{12}{appendix.A}
-\contentsline {section}{\numberline {A.1}\hspace {-1.7em}Oh Yes He Does}{12}{section.A.1}
-\contentsline {section}{\numberline {A.2}\hspace {-1.7em}Really}{12}{section.A.2}
-\contentsline {chapterapp}{\numberline {B}Everybody Wants to Be Space Ghost}{13}{appendix.B}
+\contentsline {chapterapp}{\numberline {A}Zorak Likes Beans}{11}{appendix.A}
+\contentsline {section}{\numberline {A.1}\hspace {-1.7em}Oh Yes He Does}{11}{section.A.1}
+\contentsline {section}{\numberline {A.2}\hspace {-1.7em}Really}{11}{section.A.2}
+\contentsline {chapterapp}{\numberline {B}Everybody Wants to Be Space Ghost}{12}{appendix.B}

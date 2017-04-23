@@ -1,20 +1,33 @@
-\chapter{The Files}
+\chapter{Code Obfuscation}
 
-For this thesis
-format, you \LaTeX\ the file {\tt thesis.tex}. 
-But first, you
-need to make some modifications to {\tt thesis.tex}.
-The title of your report, committee members, etc.,
-are specified in {\tt thesis.tex}. All of the things that
-you need to modify are indicated by comments beginning with five consecutive asterisks, 
-so search for ``*****'' in {\tt thesis.tex} and make the necessary changes.
+Code Obfuscation is a technique by which programmers have deliberately sought to make the functionality of their code less obvious. This technique has been used by programmers to achieve various additional objectives.
 
-You put the actual content of your report 
-in the following files:
+Some of the advantages of code obfuscation, that make it very popular amongst software developers are:
+
 \begin{itemize}
-\item {\tt abs.tex} --- abstract
-\item {\tt ack.tex} --- acknowledgements
-\item {\tt chap1.tex}, {\tt chap2.tex}, and so on --- chapters
-\item {\tt bib.tex} --- references
-\item {\tt appA.tex}, {\tt appB.tex}, and so on --- appendices (if any)
+	\item Prevention of reverse engineering.
+	\item Protection of intellectual property.
+	\item Reducing the size of an executable.
+	\item Protection of licensing mechanisms.
+	\item Restricting unauthorized access.
 \end{itemize}
+
+
+We will look at the history of code obfuscation to appreciate the relevance of code obfuscation in today's software development perspective.
+
+\section{Growth of Obfuscation in Software Development}
+
+Code obfuscation has been historically associated with malware development, than with benign software development. Some of the earliest examples of attempts at obfuscation in malware can be found in the \"Brain Virus" \cite{brain} . In this variant of the malware, the malicious program would display unaffected disk partitions to users attempting to access partitions that the virus had corrupted. Although the code in itself was not encrypted, the behavior of the virus shows attempts at hiding its true usage.
+
+In the same year, the Cascade virus was released to the world. This was an early variant of malware to use encryption to hide its true purpose. The earliest strains of obfuscated malware used a simple encryption-decryption routine to perform the decryption tasks. As the malware detectors of the time were not sophisticated enough to detect the encrypted part of the code, this simple obfuscation technique enabled a lot of malware programs to slip away undetected. This is a serious disadvantage in the design and implementation of malware detectors. We would be exploring more such flaws with the implementation of malware detectors in this project.
+
+With the advent of advanced malware detectors and improvement in statical analysis techniques, the level of obfuscation in malware increased. Polymorphic malware uses a very high level of encryption technique to obfuscate its contents. A polymorphic malware changes the encryption in itself and provides very few traces of a signature. If a malware is truly polymorphic, then there will be no consistency between any two iterations of the same program and it would be virtually impossible to detect them using traditional signature matching techniques.
+
+
+
+%But first, you
+%need to make some modifications to {\tt thesis.tex}.
+%The title of your report, committee members, etc.,
+%are specified in {\tt thesis.tex}. All of the things that
+%you need to modify are indicated by comments beginning with five consecutive asterisks, 
+%so search for ``*****'' in {\tt thesis.tex} and make the necessary changes.

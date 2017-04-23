@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.3.6)  18 APR 2017 02:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.3.6)  23 APR 2017 06:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1281,8 +1281,8 @@ Package geometry Warning: Over-specification in `h'-direction.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (379.4175pt) is ignored.
 
-) (./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
-(./appA.aux) (./appB.aux))
+) (./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./appA.aux)
+(./appB.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -1299,8 +1299,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 95.
@@ -1448,11 +1447,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
  [6
 
-] [7] (./thesis.lof)
+] (./thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [8
+ [7
 
 ]
 \openout2 = `chap1.aux'.
@@ -1471,7 +1470,7 @@ CHAPTER 2.
 
 
 
-] <evalFigure1.jpg, id=193, 421.575pt x 199.49532pt>
+] <evalFigure1.jpg, id=182, 421.575pt x 199.49532pt>
 File: evalFigure1.jpg Graphic file (type jpg)
  <use evalFigure1.jpg>
 Package pdftex.def Info: evalFigure1.jpg used on input line 31.
@@ -1482,7 +1481,7 @@ Underfull \hbox (badness 2126) in paragraph at lines 43--43
 []\T1/cmr/bx/n/12 STATISTICAL ANAL-Y-SIS TECH-NIQUES AND AN-DROID
  []
 
-[6] <androSimilar.jpg, id=214, 469.755pt x 199.49532pt>
+[6] <androSimilar.jpg, id=203, 469.755pt x 199.49532pt>
 File: androSimilar.jpg Graphic file (type jpg)
  <use androSimilar.jpg>
 Package pdftex.def Info: androSimilar.jpg used on input line 50.
@@ -1492,54 +1491,20 @@ Package pdftex.def Info: androSimilar.jpg used on input line 50.
 
  (./chap3.tex
 CHAPTER 3.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) [8
+
+LaTeX Warning: Citation `brain' on page 8 undefined on input line 20.
+
+[8
 
 
 
-]
-\openout2 = `chap4.aux'.
-
- (./chap4.tex
-CHAPTER 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-<./images/muffins.jpg, id=225, 702.625pt x 467.7475pt>
-File: ./images/muffins.jpg Graphic file (type jpg)
-
-<use ./images/muffins.jpg>
-Package pdftex.def Info: ./images/muffins.jpg used on input line 9.
-(pdftex.def)             Requested size: 256.0748pt x 170.47304pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-
- []
-
-[9
-
-
-
- <./images/muffins.jpg>]
-
-LaTeX Warning: Citation `calderwood' on page 10 undefined on input line 26.
-
-) [10] (./thesis.bbl
+]) [9] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 53--56
 \T1/cmr/m/n/12 (+20) com / media / source . android . com / en / /security / re
 ports / Google _ Android _
  []
 
-) [11
+) [10
 
 
 ]
@@ -1550,7 +1515,7 @@ Appendix A.
 
 Package hyperref Warning: bookmark level for unknown chapterapp defaults to 0.
 
-) [12
+) [11
 
 
 ]
@@ -1558,7 +1523,7 @@ Package hyperref Warning: bookmark level for unknown chapterapp defaults to 0.
 
  (./appB.tex
 Appendix B.
-) [13
+) [12
 
 
 
@@ -1566,12 +1531,12 @@ Appendix B.
 No file thesisbib.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
-(./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
-(./appA.aux) (./appB.aux))
+(./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./appA.aux)
+(./appB.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D9690392B28CD0660385B41598909A12;1170.
+(rerunfilecheck)             Checksum: 1B6314BF230BDBDF6B55CA8E490815BC;1170.
 
 
 LaTeX Warning: There were undefined references.
@@ -1585,24 +1550,22 @@ BibTeX Info: The commands to generate the bibliography and references are:
 
  ) 
 Here is how much of TeX's memory you used:
- 38359 strings out of 493105
- 834489 string characters out of 6137073
- 1008443 words of memory out of 5000000
- 40973 multiletter control sequences out of 15000+600000
- 14612 words of font info for 79 fonts, out of 8000000 for 9000
+ 38312 strings out of 493105
+ 833505 string characters out of 6137073
+ 1007656 words of memory out of 5000000
+ 40948 multiletter control sequences out of 15000+600000
+ 13535 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,7n,92p,10449b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sftt1200.pfb>
-Output written on thesis.pdf (21 pages, 254368 bytes).
+er/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on thesis.pdf (19 pages, 183521 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 9416 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 8379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
