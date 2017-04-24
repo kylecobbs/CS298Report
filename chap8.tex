@@ -46,10 +46,37 @@ Application of individual obfuscators did not alter the detection ratio by a hug
 	 \end{center}
 	 \vspace{3mm}
 	 
+The results for the obfuscator "Reordering" are shown in \ref{reordering}.The detection ratio for this obfuscator is also lesser than for a normal malware. But with applying this obfuscator, the detection ratio is still reduced. 
+	 
+	 	 \begin{center}
+	 	 	%\centering
+	 	 	\includegraphics[width=0.8\textwidth]{reordering.jpg}
+	 	 	\captionof{figure}{Single Obfuscator Usage - reordering}
+	 	 	\label{reordering}
+	 	 \end{center}
+	 	 \vspace{3mm}
+	 
 \subsection{Multiple Obfuscators}
 
 While individual obfuscators didn't provide much insight into the malware detection scores, it was observed that combining multiple obfsucators quickly decreased the detection ratio. 
 
+In Fig. \ref{3Obfuscators}, the obfuscators Nop, Reordering, and Rename were applied to the files.
+
+	 \vspace{3mm}
+	 \begin{center}
+	 	%\centering
+	 	\includegraphics[width=0.8\textwidth]{3Obfuscators.jpg}
+	 	\captionof{figure}{Detection Ratios with three obfuscators applied.}
+	 	\label{3Obfuscators}
+	 \end{center}
+	 \vspace{3mm}
+
+This certainly increased the obscurity of the malware files. The detection ratio for the obfuscated files in Fig.\ref{3Obfuscators} is much lesser than in Fig.\ref{renaming}. This could be attributed to the fact that a combination of weak obfuscators is still a strong enough challenge for malware detectors.
+
+\subsection{All Obfsucators}	 
+
+To make the results of the experiment certain, all the obfuscators in question were applied to a set of files. Keeping up with the consistency observed so far, the detection ratio dropped very low. This can be observed in Fig.\ref{detection}.
+	 
  	 \vspace{3mm}
  	 \begin{center}
  	 	%\centering
@@ -58,3 +85,5 @@ While individual obfuscators didn't provide much insight into the malware detect
  	 	\label{detection}
  	 \end{center}
  	 \vspace{3mm}
+
+This clearly shows that by increasing the number of obfuscators being applied to a malware, we can bring down the detection ratio of that particular file to a very low value. 	 

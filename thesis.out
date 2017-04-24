@@ -47,4 +47,17 @@
 \BOOKMARK [2][-]{subsection.7.1.1}{Malware Files Selection}{section.7.1}% 47
 \BOOKMARK [2][-]{subsection.7.1.2}{Other Datasets}{section.7.1}% 48
 \BOOKMARK [1][-]{section.7.2}{Malware Detectors}{chapter.7}% 49
-\BOOKMARK [0][-]{chapter*.9}{LIST OF REFERENCES}{}% 50
+\BOOKMARK [0][-]{chapter.8}{Results of Experiments}{}% 50
+\BOOKMARK [1][-]{section.8.1}{Observations}{chapter.8}% 51
+\BOOKMARK [1][-]{section.8.2}{Steps for Analyzing Malware Detectors}{chapter.8}% 52
+\BOOKMARK [2][-]{subsection.8.2.1}{Metrics used}{section.8.2}% 53
+\BOOKMARK [1][-]{section.8.3}{Obfuscators Application}{chapter.8}% 54
+\BOOKMARK [2][-]{subsection.8.3.1}{Individual Obfuscators}{section.8.3}% 55
+\BOOKMARK [2][-]{subsection.8.3.2}{Multiple Obfuscators}{section.8.3}% 56
+\BOOKMARK [2][-]{subsection.8.3.3}{All Obfsucators}{section.8.3}% 57
+\BOOKMARK [0][-]{chapter.9}{Conclusion and Future Work}{}% 58
+\BOOKMARK [1][-]{section.9.1}{Conclusion}{chapter.9}% 59
+\BOOKMARK [1][-]{section.9.2}{Future Work}{chapter.9}% 60
+\BOOKMARK [0][-]{chapter*.9}{LIST OF REFERENCES}{}% 61
+\BOOKMARK [0][-]{appendix.A}{Appendix 1}{}% 62
+\BOOKMARK [1][-]{section.A.1}{Abbreviations and Terminologies Used}{appendix.A}% 63

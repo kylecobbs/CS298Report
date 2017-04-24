@@ -12,3 +12,10 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\global \advance \c@totalfigurecount 1\relax 6}{\ignorespaces Sampling Results\relax }}{25}{figure.7.6}
 \contentsline {figure}{\numberline {\global \advance \c@totalfigurecount 1\relax 7}{\ignorespaces Malware detector results for the Genome Project\relax }}{26}{figure.7.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\global \advance \c@totalfigurecount 1\relax 8}{\ignorespaces Single Obfuscator Usage - Renaming\relax }}{30}{figure.8.8}
+\contentsline {figure}{\numberline {\global \advance \c@totalfigurecount 1\relax 9}{\ignorespaces Single Obfuscator Usage - reordering\relax }}{30}{figure.8.9}
+\contentsline {figure}{\numberline {\global \advance \c@totalfigurecount 1\relax 10}{\ignorespaces Detection Ratios with three obfuscators applied.\relax }}{31}{figure.8.10}
+\contentsline {figure}{\numberline {\global \advance \c@totalfigurecount 1\relax 11}{\ignorespaces Pre and Post Obfuscation Results\relax }}{32}{figure.8.11}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

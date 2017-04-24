@@ -54,4 +54,19 @@
 \contentsline {subsection}{\numberline {7.1.1}\hspace {-1.7em}Malware Files Selection}{26}{subsection.7.1.1}
 \contentsline {subsection}{\numberline {7.1.2}\hspace {-1.7em}Other Datasets}{26}{subsection.7.1.2}
 \contentsline {section}{\numberline {7.2}\hspace {-1.7em}Malware Detectors}{27}{section.7.2}
-\contentsline {chapterx}{LIST OF REFERENCES}{28}{chapter*.9}
+\contentsline {chapter}{\numberline {8}Results of Experiments}{28}{chapter.8}
+\contentsline {section}{\numberline {8.1}\hspace {-1.7em}Observations}{28}{section.8.1}
+\contentsline {section}{\numberline {8.2}\hspace {-1.7em}Steps for Analyzing Malware Detectors}{28}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}\hspace {-1.7em}Metrics used}{29}{subsection.8.2.1}
+\contentsline {section}{\numberline {8.3}\hspace {-1.7em}Obfuscators Application}{29}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}\hspace {-1.7em}Individual Obfuscators}{29}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}\hspace {-1.7em}Multiple Obfuscators}{31}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}\hspace {-1.7em}All Obfsucators}{31}{subsection.8.3.3}
+\contentsline {chapter}{\numberline {9}Conclusion and Future Work}{33}{chapter.9}
+\contentsline {section}{\numberline {9.1}\hspace {-1.7em}Conclusion}{33}{section.9.1}
+\contentsline {section}{\numberline {9.2}\hspace {-1.7em}Future Work}{33}{section.9.2}
+\contentsline {chapterx}{LIST OF REFERENCES}{34}{chapter*.9}
+{\vskip 1.0ex plus\p@ {\bfseries \noindent APPENDIX \hfill }}
+ 
+\contentsline {chapterapp}{Appendix 1}{36}{appendix.A}
+\contentsline {section}{\numberline {A.1}\hspace {-1.7em}Abbreviations and Terminologies Used}{36}{section.A.1}
