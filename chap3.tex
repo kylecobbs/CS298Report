@@ -23,11 +23,33 @@ In the same year, the Cascade virus was released to the world. This was an early
 
 With the advent of advanced malware detectors and improvement in statical analysis techniques, the level of obfuscation in malware increased. Polymorphic malware uses a very high level of encryption technique to obfuscate its contents. A polymorphic malware changes the encryption in itself and provides very few traces of a signature. If a malware is truly polymorphic, then there will be no consistency between any two iterations of the same program and it would be virtually impossible to detect them using traditional signature matching techniques.
 
+\section{Malware Detectors}
 
+Malware detectors came into existence with the advent of different malicious programs. Before the rapid growth of the internet, malware detectors were only capable of performing scans based on signatures of known virus programs. This static analysis technique meant that new virus would be out in the wild for some time before the malware definitions of the individual anti virus programs could be updated.
 
-%But first, you
-%need to make some modifications to {\tt thesis.tex}.
-%The title of your report, committee members, etc.,
-%are specified in {\tt thesis.tex}. All of the things that
-%you need to modify are indicated by comments beginning with five consecutive asterisks, 
-%so search for ``*****'' in {\tt thesis.tex} and make the necessary changes.
+With the introduction of the world wide web, the antivirus industry expanded into dynamic analysis and cloud based malware detectors. Firewalls, online scanning, and virtual machines started being increasingly used to identify malware. One major shortfall of anti virus programs is their inability to detect polymorphic virus. The various methods employed by antivirus programs include:
+
+\begin{enumerate}
+	\item Signature Based Detection
+	\item Heuristics Based Detection
+	\item Rootkit Detection
+	\item On-Access Scanning	
+\end{enumerate}
+
+The functioning of theses methods, their limitations, and their relevance to this experiment are discussed in the next few pages.
+
+\subsection{Signature Based Detection}
+	This is one of the most basic methods of malware detection that is still in use today. When a new strain of malware is detected in the "wild", antivirus firms analyze it and extract a "signature" from it. This signature extraction can either be done manually or by using automated signature detection techniques \cite{ask}. Once a signature is detected, it is updated into various malware definitions of antivirus software.
+	
+	Although this method is effective against generic malware, it is highly ineffective against oligomorphic, polymorphic and metamorphic malware. These are variants of malware that encrypt itself with each iteration. In this project, we attempt to identify the various factors that contribute to malware detection and their importance in overcoming the signature detection method.
+
+\subsection{Heuristics Based Detection}
+	In Heuristics based detection techniques, a single signature or pattern is used to detect multiple malware belonging to the same family. Such techniques rely on the fact that multiple malware are created from a single malware. Thus, successfully creating a signature for a base family will result in the detection of all malware related to that particular family.
+\subsection{Rootkit Detection}
+	A rootkit is a type of software that attempts to gain administrator privileges in a system without the knowledge of the user running it. In many cases, the rootkits contain software within them that becomes undetectable to antivirus programs. Rootkits usually have full administrative access and also have the ability to hide themselves from the list of running processes. Modern antivirus software scans for rootkits in specific, to detect them. It is very difficult to remove a rootkit when compared to other generic malware programs.
+\subsection{On-Access Scanning}
+	In this method, the antivirus program looks out for any threats that might happen on a real-time basis. The antivirus monitors the system in which it is installed and looks for suspicious activity whenever the computer's memory is loaded with fresh data from the storage disks. This might happen when a USB drive is inserted, an email attachment is opened or a even when an already existing file is opened by a user or a program.
+	This type of scanning is more effective as it does not rely solely on malware definitions to detect viruses.
+
+\section{Android Malware Detectors}
+
