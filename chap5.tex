@@ -1,0 +1,22 @@
+\chapter{Obfuscators in Android Malware}
+
+In this experiment we use different obfuscators to modify parts of an android malware. By systematically obfuscating different parts of the code, we can gain insight into the parts which contribute most to the detection of malware. Once we have this information, we can then determine efficient ways to make the malware detectors more robust and be less resilient to code obfuscators.
+
+\section{Experiment}
+For this project, we use a tool called AAMO (Another Android Malware Obfuscator) \cite{aamo}. This tool gives us various obfuscators for use with our experimentations. The obfuscators can be used independently or in combination with other obfuscators to increase their effectiveness. Using this tool, we decompile a android file, perform obfuscation operations on them, and recompile the file again.
+ The steps involved in this are detailed below:
+ 
+ \begin{enumerate}
+	 \item Obtain an APK file.
+	 \item Decompile the APK file into Smali.
+	 \item Get the list of obfuscators passed into the program.
+	 \item Apply the obfuscators one after the other on the decompiled apk file.
+	 \item Repackage the decompiled file into an APK.
+	 \item Sign the APK file to maintain its integrity.
+ \end{enumerate}
+ 
+ Performing the above steps ensures that the apk file is not corrupted and its usage is not affected. We perform this to make it difficult for a malware detector to detect the apk file as a malicious one.
+ 
+\subsection{Uses of the obfuscator}
+
+Using the obfuscator in this step has various advantages for our experiment. One of the primary uses is to make the job of the malware detector more difficult. Since most of the malware detectors do not take into account polymorphic and oligomorphic 

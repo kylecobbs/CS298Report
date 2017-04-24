@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.3.6)  23 APR 2017 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.3.6)  24 APR 2017 00:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1281,8 +1281,8 @@ Package geometry Warning: Over-specification in `h'-direction.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (379.4175pt) is ignored.
 
-) (./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./appA.aux)
-(./appB.aux))
+) (./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
+(./appA.aux) (./appB.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -1299,7 +1299,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 95.
@@ -1474,14 +1475,14 @@ CHAPTER 2.
 
 
 
-] <evalFigure1.jpg, id=219, 421.575pt x 199.49532pt>
+] <evalFigure1.jpg, id=261, 421.575pt x 199.49532pt>
 File: evalFigure1.jpg Graphic file (type jpg)
  <use evalFigure1.jpg>
 Package pdftex.def Info: evalFigure1.jpg used on input line 31.
 (pdftex.def)             Requested size: 216.81pt x 102.59967pt.
 
 [5 <./evalFigure1.jpg>] [6]
-<androSimilar.jpg, id=240, 469.755pt x 199.49532pt>
+<androSimilar.jpg, id=282, 469.755pt x 199.49532pt>
 File: androSimilar.jpg Graphic file (type jpg)
  <use androSimilar.jpg>
 Package pdftex.def Info: androSimilar.jpg used on input line 50.
@@ -1499,25 +1500,33 @@ LaTeX Warning: Citation `brain' on page 8 undefined on input line 20.
 
 
 
-] [9] [10] <OS_Market_Share.png, id=266, 1003.75pt x 718.685pt>
-File: OS_Market_Share.png Graphic file (type png)
+] [9] [10]) [11]
+\openout2 = `chap4.aux'.
 
-<use OS_Market_Share.png>
-Package pdftex.def Info: OS_Market_Share.png used on input line 59.
+ (./chap4.tex
+CHAPTER 4.
+<OS_Market_Share.png, id=314, 1003.75pt x 718.685pt>
+File: OS_Market_Share.png Graphic file (type png)
+ <use OS_Market_Share.png>
+Package pdftex.def Info: OS_Market_Share.png used on input line 8.
 (pdftex.def)             Requested size: 216.81pt x 155.22707pt.
 
-<permissionsList.jpg, id=270, 618.81187pt x 307.1475pt>
-File: permissionsList.jpg Graphic file (type jpg)
+<permissionsList1.png, id=316, 618.81187pt x 307.1475pt>
+File: permissionsList1.png Graphic file (type png)
 
-<use permissionsList.jpg>
-Package pdftex.def Info: permissionsList.jpg used on input line 67.
-(pdftex.def)             Requested size: 569.05511pt x 282.47601pt.
+<use permissionsList1.png>
+Package pdftex.def Info: permissionsList1.png used on input line 15.
+(pdftex.def)             Requested size: 216.81pt x 107.6157pt.
+File: permissionsList1.png Graphic file (type png)
+ <use permissionsList1.png>
+Package pdftex.def Info: permissionsList1.png used on input line 23.
+(pdftex.def)             Requested size: 216.81pt x 107.6157pt.
+ [12
 
-Overfull \hbox (135.4351pt too wide) in paragraph at lines 67--68
- [][] 
- []
 
-[11 <./OS_Market_Share.png>]) [12] [13 <./permissionsList.jpg>] (./thesis.bbl
+
+ <./OS_Market_Share.png>] [13] [14]) [15] [16] [17 <./permissionsList1.png>] (.
+/thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 53--56
 \T1/cmr/m/n/12 (+20) com / media / source . android . com / en / /security / re
 ports / Google _ Android _
@@ -1529,10 +1538,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--83
 d _ Security _ 2014 _ Report _
  []
 
-[14
+[18
 
 
-]) [15]
+]) [19]
 \openout2 = `appA.aux'.
 
  (./appA.tex
@@ -1540,7 +1549,7 @@ Appendix A.
 
 Package hyperref Warning: bookmark level for unknown chapterapp defaults to 0.
 
-) [16
+) [20
 
 
 ]
@@ -1548,7 +1557,7 @@ Package hyperref Warning: bookmark level for unknown chapterapp defaults to 0.
 
  (./appB.tex
 Appendix B.
-) [17
+) [21
 
 
 
@@ -1556,12 +1565,12 @@ Appendix B.
 No file thesisbib.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
-(./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./appA.aux)
-(./appB.aux))
+(./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
+(./appA.aux) (./appB.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C9FC9CD18751E3721B687515C41BABDE;1608.
+(rerunfilecheck)             Checksum: 1DCEE2F668CB4C35C41613F00A23D1BE;2180.
 
 
 LaTeX Warning: There were undefined references.
@@ -1575,11 +1584,11 @@ BibTeX Info: The commands to generate the bibliography and references are:
 
  ) 
 Here is how much of TeX's memory you used:
- 38360 strings out of 493105
- 834183 string characters out of 6137073
- 1008903 words of memory out of 5000000
- 40968 multiletter control sequences out of 15000+600000
- 13653 words of font info for 79 fonts, out of 8000000 for 9000
+ 38408 strings out of 493105
+ 834791 string characters out of 6137073
+ 1009846 words of memory out of 5000000
+ 40981 multiletter control sequences out of 15000+600000
+ 14005 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,92p,10449b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
@@ -1587,10 +1596,10 @@ fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (25 pages, 364615 bytes).
+Output written on thesis.pdf (29 pages, 471283 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
- 81 named destinations out of 1000 (max. 500000)
- 8437 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 376 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 8501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

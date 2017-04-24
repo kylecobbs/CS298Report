@@ -86,4 +86,19 @@ Y.~Zhou and X.~Jiang, ``Dissecting android malware: Characterization and
   evolution,'' in \emph{2012 IEEE Symposium on Security and Privacy}, May 2012,
   pp. 95--109.
 
+\bibitem{arshad}
+S.~Arshad, M.~A. Shah, A.~Khan, and M.~Ahmed, ``Android malware detection \&
+  protection: a survey,'' \emph{Int. J. Adv. Comput. Sci. Appl}, vol.~7, no.~2,
+  pp. 463--475, 2016.
+
+\bibitem{sato}
+R.~Sato, D.~Chiba, and S.~Goto, ``Detecting android malware by analyzing
+  manifest files,'' \emph{Proceedings of the Asia-Pacific Advanced Network},
+  vol.~36, no. 23-31, p.~17, 2013.
+
+\bibitem{yan}
+L.-K. Yan and H.~Yin, ``Droidscope: Seamlessly reconstructing the os and dalvik
+  semantic views for dynamic android malware analysis.'' in \emph{USENIX
+  security symposium}, 2012, pp. 569--584.
+
 \end{thebibliography}
