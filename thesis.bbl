@@ -75,4 +75,15 @@ P.~Faruki, V.~Ganmoor, V.~Laxmi, M.~S. Gaur, and A.~Bharmal, ``Androsimilar:
 \bibitem{ask}
 K.~Ask, ``Automatic malware signature generation,'' Ph.D. dissertation, 2006.
 
+\bibitem{androidShare2009}
+Statista, ``Global mobile os market share in sales to end users from 1st
+  quarter 2009 to 1st quarter 2016,''
+  \url{https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_2014_Report_Final.pdf},
+  accessed 2016-12-01.
+
+\bibitem{zhou}
+Y.~Zhou and X.~Jiang, ``Dissecting android malware: Characterization and
+  evolution,'' in \emph{2012 IEEE Symposium on Security and Privacy}, May 2012,
+  pp. 95--109.
+
 \end{thebibliography}

@@ -30,45 +30,45 @@ Warning--empty journal in emm
 Warning--missing school in ask
 
 Done.
-You've used 11 entries,
+You've used 13 entries,
             3985 wiz_defined-function locations,
-            867 strings with 9478 characters,
-and the built_in function-call counts, 7253 in all, are:
-= -- 541
-> -- 172
-< -- 46
-+ -- 92
-- -- 31
-* -- 336
-:= -- 1105
-add.period$ -- 25
-call.type$ -- 11
-change.case$ -- 13
-chr.to.int$ -- 120
-cite$ -- 13
-duplicate$ -- 536
-empty$ -- 653
-format.name$ -- 39
-if$ -- 1658
+            877 strings with 9746 characters,
+and the built_in function-call counts, 8411 in all, are:
+= -- 629
+> -- 191
+< -- 53
++ -- 103
+- -- 34
+* -- 384
+:= -- 1281
+add.period$ -- 29
+call.type$ -- 13
+change.case$ -- 16
+chr.to.int$ -- 138
+cite$ -- 15
+duplicate$ -- 627
+empty$ -- 766
+format.name$ -- 43
+if$ -- 1927
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 102
-newline$ -- 54
-num.names$ -- 11
-pop$ -- 263
+int.to.str$ -- 13
+missing$ -- 120
+newline$ -- 60
+num.names$ -- 13
+pop$ -- 311
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 555
+skip$ -- 646
 stack$ -- 0
-substring$ -- 293
-swap$ -- 393
-text.length$ -- 6
+substring$ -- 338
+swap$ -- 456
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 8
 type$ -- 0
 warning$ -- 2
-while$ -- 33
-width$ -- 13
-write$ -- 115
+while$ -- 38
+width$ -- 15
+write$ -- 132
 (There were 3 error messages)

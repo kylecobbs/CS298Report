@@ -52,4 +52,37 @@ The functioning of theses methods, their limitations, and their relevance to thi
 	This type of scanning is more effective as it does not rely solely on malware definitions to detect viruses.
 
 \section{Android Malware Detectors}
+	With the rise of the Android Operating systems, the amount of malware associated with it has also risen significantly. From a market share of 2.8 \% in 2009 \cite{androidShare2009} , Android captured about 75\% of the market in 2012 \cite{androidShare2009}. As shown in fig.~\ref{osMarketShare} , we can see that the growth and adoption of Android has been very steep. This rapid proliferation of Android resulted in an equally rapid rise of Android malware.
+	
+	\begin{figure}[osMarketShare]
+		\centering
+		\includegraphics[width=0.5\textwidth]{OS_Market_Share.png}
+		\caption{Market Share of mobile operating systems}
+		\label{osMarketShare}
+	\end{figure}
 
+	With the increase in the number of Android malware being released to the wild, their level of sophistication also increased. Android malware detectors used the number of permissions requested by an app to determine its legitimacy. As shown in the fig. ~\ref{permissionsAndroid} obtained from \cite{zhou}, we can see that benign and malicious Android applications have access requests that are very similar. 	
+	
+	\begin{figure}[permissionsAndroid]
+			\centering
+			\includegraphics[width=200mm]{permissionsList.jpg}
+			\caption{Top 20 permissions in Android in 2012}
+			\label{permissionsAndroid}
+	\end{figure}
+		
+	Due to this, using access requests as a measure for classifying android applications became ineffective. The various types of Android malware can be broadly classified into the following categories, depending on the type of malicious activities they perform \cite{zhou}:
+	
+	\begin{itemize}
+		\item Privilege Escalation
+		\item Remote Control
+		\item Monetary Loss
+		\item Information Collection
+	\end{itemize}
+	
+	\subsection{Privilege Escalation}
+		In this type of attack, the malicious app that is installed on a device, attempts to grant itself additional privileges than the one it requires. This is achieved by using known exploits in the Android operating system.
+	\subsection{Remote Control}
+		A very high percentage of malware attempts to use the compromised device as a remote bot. In some malware families, the remote URL that is being used to control the device. Such encryption makes it very difficult to detect these types of malware and this will be a primary area of focus in this thesis.
+	\subsection{Monetary Loss}
+		
+	
