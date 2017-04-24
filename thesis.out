@@ -25,8 +25,21 @@
 \BOOKMARK [1][-]{section.4.2}{Android Malware Detection Limitations}{chapter.4}% 25
 \BOOKMARK [2][-]{subsection.4.2.1}{Static Analysis}{section.4.2}% 26
 \BOOKMARK [2][-]{subsection.4.2.2}{Dynamic Analysis}{section.4.2}% 27
-\BOOKMARK [0][-]{chapter*.10}{LIST OF REFERENCES}{}% 28
-\BOOKMARK [0][-]{appendix.A}{Zorak Likes Beans}{}% 29
-\BOOKMARK [1][-]{section.A.1}{Oh Yes He Does}{appendix.A}% 30
-\BOOKMARK [1][-]{section.A.2}{Really}{appendix.A}% 31
-\BOOKMARK [0][-]{appendix.B}{Everybody Wants to Be Space Ghost}{}% 32
+\BOOKMARK [0][-]{chapter.5}{Obfuscators in Android Malware}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Experiment}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.1.1}{Uses of the obfuscator}{section.5.1}% 30
+\BOOKMARK [2][-]{subsection.5.1.2}{Alignment}{section.5.1}% 31
+\BOOKMARK [2][-]{subsection.5.1.3}{Rebuild}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.4}{Fields}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.5}{Debug}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.6}{Indirections}{section.5.1}% 35
+\BOOKMARK [2][-]{subsection.5.1.7}{Renaming}{section.5.1}% 36
+\BOOKMARK [2][-]{subsection.5.1.8}{Reordering}{section.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.1.9}{Goto}{section.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.1.10}{Arithmetic Branch}{section.5.1}% 39
+\BOOKMARK [2][-]{subsection.5.1.11}{Nop}{section.5.1}% 40
+\BOOKMARK [2][-]{subsection.5.1.12}{Lib}{section.5.1}% 41
+\BOOKMARK [2][-]{subsection.5.1.13}{Manifest}{section.5.1}% 42
+\BOOKMARK [2][-]{subsection.5.1.14}{Reflection}{section.5.1}% 43
+\BOOKMARK [0][-]{chapter.6}{Software Requirements and Setup}{}% 44
+\BOOKMARK [0][-]{chapter*.12}{LIST OF REFERENCES}{}% 45

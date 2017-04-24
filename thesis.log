@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.3.6)  24 APR 2017 00:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.3.6)  24 APR 2017 06:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1282,7 +1282,7 @@ Package geometry Warning: Over-specification in `v'-direction.
     `height' (379.4175pt) is ignored.
 
 ) (./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
-(./appA.aux) (./appB.aux))
+(./chap5.aux) (./chap6.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -1444,7 +1444,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ] (./thesis.toc [6
 
-])
+]
+Overfull \vbox (673.88487pt too high) has occurred while \output is active []
+
+
+[7])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
@@ -1452,11 +1456,17 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 Overfull \vbox (673.88487pt too high) has occurred while \output is active []
 
 
-[7] (./thesis.lof)
-\tf@lof=\write6
-\openout6 = `thesis.lof'.
+[8] (./thesis.lot)
+\tf@lot=\write6
+\openout6 = `thesis.lot'.
 
- [8
+ [9
+
+] (./thesis.lof)
+\tf@lof=\write7
+\openout7 = `thesis.lof'.
+
+ [10
 
 ]
 \openout2 = `chap1.aux'.
@@ -1475,14 +1485,14 @@ CHAPTER 2.
 
 
 
-] <evalFigure1.jpg, id=261, 421.575pt x 199.49532pt>
+] <evalFigure1.jpg, id=339, 421.575pt x 199.49532pt>
 File: evalFigure1.jpg Graphic file (type jpg)
  <use evalFigure1.jpg>
 Package pdftex.def Info: evalFigure1.jpg used on input line 31.
 (pdftex.def)             Requested size: 216.81pt x 102.59967pt.
 
 [5 <./evalFigure1.jpg>] [6]
-<androSimilar.jpg, id=282, 469.755pt x 199.49532pt>
+<androSimilar.jpg, id=359, 469.755pt x 199.49532pt>
 File: androSimilar.jpg Graphic file (type jpg)
  <use androSimilar.jpg>
 Package pdftex.def Info: androSimilar.jpg used on input line 50.
@@ -1505,28 +1515,48 @@ LaTeX Warning: Citation `brain' on page 8 undefined on input line 20.
 
  (./chap4.tex
 CHAPTER 4.
-<OS_Market_Share.png, id=314, 1003.75pt x 718.685pt>
+<OS_Market_Share.png, id=390, 1003.75pt x 718.685pt>
 File: OS_Market_Share.png Graphic file (type png)
  <use OS_Market_Share.png>
 Package pdftex.def Info: OS_Market_Share.png used on input line 8.
 (pdftex.def)             Requested size: 216.81pt x 155.22707pt.
 
-<permissionsList1.png, id=316, 618.81187pt x 307.1475pt>
+<permissionsList1.png, id=392, 618.81187pt x 307.1475pt>
 File: permissionsList1.png Graphic file (type png)
 
 <use permissionsList1.png>
 Package pdftex.def Info: permissionsList1.png used on input line 15.
 (pdftex.def)             Requested size: 216.81pt x 107.6157pt.
-File: permissionsList1.png Graphic file (type png)
- <use permissionsList1.png>
-Package pdftex.def Info: permissionsList1.png used on input line 23.
-(pdftex.def)             Requested size: 216.81pt x 107.6157pt.
  [12
 
 
 
- <./OS_Market_Share.png>] [13] [14]) [15] [16] [17 <./permissionsList1.png>] (.
-/thesis.bbl
+ <./OS_Market_Share.png>] [13] [14]) [15]
+[16] [17 <./permissionsList1.png>]
+\openout2 = `chap5.aux'.
+
+ (./chap5.tex
+CHAPTER 5.
+[18
+
+
+
+] <procedure.png, id=454, 183.68625pt x 617.30624pt>
+File: procedure.png Graphic file (type png)
+ <use procedure.png>
+Package pdftex.def Info: procedure.png used on input line 23.
+(pdftex.def)             Requested size: 113.81102pt x 382.49043pt.
+
+[19] [20] [21] [22]) [23] [24 <./procedure.png>]
+\openout2 = `chap6.aux'.
+
+ (./chap6.tex
+CHAPTER 6.
+) [25
+
+
+
+] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 53--56
 \T1/cmr/m/n/12 (+20) com / media / source . android . com / en / /security / re
 ports / Google _ Android _
@@ -1538,39 +1568,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--83
 d _ Security _ 2014 _ Report _
  []
 
-[18
+[26
 
 
-]) [19]
-\openout2 = `appA.aux'.
-
- (./appA.tex
-Appendix A.
-
-Package hyperref Warning: bookmark level for unknown chapterapp defaults to 0.
-
-) [20
-
-
-]
-\openout2 = `appB.aux'.
-
- (./appB.tex
-Appendix B.
-) [21
-
-
-
-]
+]) [27]
 No file thesisbib.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
 (./thesis.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux)
-(./appA.aux) (./appB.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+(./chap5.aux) (./chap6.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1DCEE2F668CB4C35C41613F00A23D1BE;2180.
+(rerunfilecheck)             Checksum: 6AFA2838230E50758EE8CB2BC92A4CB3;3015.
 
 
 LaTeX Warning: There were undefined references.
@@ -1584,22 +1594,21 @@ BibTeX Info: The commands to generate the bibliography and references are:
 
  ) 
 Here is how much of TeX's memory you used:
- 38408 strings out of 493105
- 834791 string characters out of 6137073
- 1009846 words of memory out of 5000000
- 40981 multiletter control sequences out of 15000+600000
- 14005 words of font info for 83 fonts, out of 8000000 for 9000
+ 38482 strings out of 493105
+ 835710 string characters out of 6137073
+ 1009905 words of memory out of 5000000
+ 41000 multiletter control sequences out of 15000+600000
+ 14181 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,92p,10449b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,92p,10449b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on thesis.pdf (29 pages, 471283 bytes).
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/
+cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on thesis.pdf (37 pages, 495518 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 376 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
- 8501 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 515 compressed objects within 6 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 8610 words of extra memory for PDF output out of 10000 (max. 10000000)
 

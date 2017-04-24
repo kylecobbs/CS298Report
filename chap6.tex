@@ -1,0 +1,18 @@
+\chapter{Software Requirements and Setup}
+
+Due to the various different types of software used in the experiment, it is important to have the correct version of each software installed. As shown in Fig.\ref{procedure}, each APK will have to be decompiled into its source code, before going through the obfuscation process. To achieve this, we use a program called apktool\cite{apktool}. A list of various software and their versions are listed in Table \ref{versionTable}.
+
+\begin{table}[htb]
+	\caption{List of software required and their versions.\label{versionTable}}
+	\begin{center}
+		\begin{tabular}{c|lc}\hline\hline
+			S.No. & \multicolumn{1}{c}{Software} & Version\\ \hline
+			1 & Java & 1.8.0\_45 \\
+			2 & Python & 2.7.11 \\
+			3 & Apktool & 2.2.1 \\
+			\hline\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+The given applications are interdependent on each other for this experiment. The AAMO framework is written in Python and uses various Python libraries to execute. The decompilation of the APK files is achieved using the Apktool. Apktool requires a java virtual machine to execute. It is imperative that this version of Apktool be maintained for repeating the experiments presented in this work as the source code of AAMO has been modified to fit this version of the tool.

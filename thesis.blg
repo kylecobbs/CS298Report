@@ -5,9 +5,9 @@ A level-1 auxiliary file: chap1.aux
 A level-1 auxiliary file: chap2.aux
 A level-1 auxiliary file: chap3.aux
 A level-1 auxiliary file: chap4.aux
+A level-1 auxiliary file: chap5.aux
+A level-1 auxiliary file: chap6.aux
 The style file: uriref.bst
-A level-1 auxiliary file: appA.aux
-A level-1 auxiliary file: appB.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -31,45 +31,45 @@ Warning--empty journal in emm
 Warning--missing school in ask
 
 Done.
-You've used 16 entries,
+You've used 19 entries,
             3985 wiz_defined-function locations,
-            895 strings with 10244 characters,
-and the built_in function-call counts, 10856 in all, are:
-= -- 835
-> -- 246
-< -- 76
-+ -- 133
-- -- 43
-* -- 502
-:= -- 1646
-add.period$ -- 35
-call.type$ -- 16
-change.case$ -- 19
-chr.to.int$ -- 186
-cite$ -- 18
-duplicate$ -- 805
-empty$ -- 956
-format.name$ -- 55
-if$ -- 2495
+            912 strings with 10786 characters,
+and the built_in function-call counts, 12416 in all, are:
+= -- 962
+> -- 282
+< -- 82
++ -- 150
+- -- 50
+* -- 570
+:= -- 1907
+add.period$ -- 41
+call.type$ -- 19
+change.case$ -- 24
+chr.to.int$ -- 201
+cite$ -- 21
+duplicate$ -- 928
+empty$ -- 1088
+format.name$ -- 65
+if$ -- 2840
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 150
-newline$ -- 69
-num.names$ -- 16
-pop$ -- 374
+int.to.str$ -- 19
+missing$ -- 176
+newline$ -- 80
+num.names$ -- 19
+pop$ -- 445
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 843
+skip$ -- 962
 stack$ -- 0
-substring$ -- 457
-swap$ -- 607
-text.length$ -- 14
+substring$ -- 498
+swap$ -- 690
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 8
 type$ -- 0
 warning$ -- 2
-while$ -- 50
-width$ -- 18
-write$ -- 163
+while$ -- 57
+width$ -- 21
+write$ -- 191
 (There were 3 error messages)

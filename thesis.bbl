@@ -101,4 +101,20 @@ L.-K. Yan and H.~Yin, ``Droidscope: Seamlessly reconstructing the os and dalvik
   semantic views for dynamic android malware analysis.'' in \emph{USENIX
   security symposium}, 2012, pp. 569--584.
 
+\bibitem{aamo}
+\BIBentryALTinterwordspacing
+M.~D. Preda and F.~Maggi, ``Testing android malware detectors against code
+  obfuscation: a systematization of knowledge and unified methodology,''
+  \emph{Journal of Computer Virology and Hacking Techniques}, pp. 1--24, 2016.
+  [Online]. Available: \url{http://dx.doi.org/10.1007/s11416-016-0282-2}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gitLoc}
+F.~Pellegatta, F.~Maggi, and M.~D. Preda, ``Aamo: Another android malware
+  obfuscator,'' \url{https://github.com/necst/aamo}, accessed 2017-02-17.
+
+\bibitem{apktool}
+R.~Wisniewski and C.~Tumbleson, ``Apktool,''
+  \url{https://ibotpeaches.github.io/Apktool/}, accessed 2016-10-26.
+
 \end{thebibliography}
