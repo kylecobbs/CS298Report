@@ -117,4 +117,11 @@ F.~Pellegatta, F.~Maggi, and M.~D. Preda, ``Aamo: Another android malware
 R.~Wisniewski and C.~Tumbleson, ``Apktool,''
   \url{https://ibotpeaches.github.io/Apktool/}, accessed 2016-10-26.
 
+\bibitem{contagio}
+``Contagio mobile malware mini dump,'' \url{http://
+  contagiominidump.blogspot.com/}, accessed 2016-12-15.
+
+\bibitem{virusTotal}
+``Virus total,'' \url{https://www.virustotal.com}, accessed 2017-04-15.
+
 \end{thebibliography}
