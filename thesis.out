@@ -42,4 +42,9 @@
 \BOOKMARK [2][-]{subsection.5.1.13}{Manifest}{section.5.1}% 42
 \BOOKMARK [2][-]{subsection.5.1.14}{Reflection}{section.5.1}% 43
 \BOOKMARK [0][-]{chapter.6}{Software Requirements and Setup}{}% 44
-\BOOKMARK [0][-]{chapter*.12}{LIST OF REFERENCES}{}% 45
+\BOOKMARK [0][-]{chapter.7}{Dataset and Malware Detectors}{}% 45
+\BOOKMARK [1][-]{section.7.1}{Dataset}{chapter.7}% 46
+\BOOKMARK [2][-]{subsection.7.1.1}{Malware Files Selection}{section.7.1}% 47
+\BOOKMARK [2][-]{subsection.7.1.2}{Other Datasets}{section.7.1}% 48
+\BOOKMARK [1][-]{section.7.2}{Malware Detectors}{chapter.7}% 49
+\BOOKMARK [0][-]{chapter*.12}{LIST OF REFERENCES}{}% 50

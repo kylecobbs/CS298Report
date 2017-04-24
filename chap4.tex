@@ -3,19 +3,25 @@
 \section{Android Malware Detectors}
 With the rise of the Android Operating systems, the amount of malware associated with it has also risen significantly. From a market share of 2.8 \% in 2009 \cite{androidShare2009} , Android captured about 75\% of the market in 2012 \cite{androidShare2009}. As shown in fig.~\ref{osMarketShare} , we can see that the growth and adoption of Android has been very steep. This rapid proliferation of Android resulted in an equally rapid rise of Android malware.
 
-\begin{figure}[osMarketShare]
-	\centering
-	\includegraphics[width=0.5\textwidth]{OS_Market_Share.png}
-	\caption{Market Share of mobile operating systems}
-	\label{osMarketShare}
-\end{figure}
-
-\begin{figure}[permissionsAndroid]
-	\centering
-	\includegraphics[width=0.5\textwidth]{permissionsList1.png}
-	\caption{Top 20 permissions in Android in 2012}
-	\label{permissionsAndroid}
-\end{figure}
+  \vspace{3mm}
+  \begin{center}
+  	%\centering
+  	\includegraphics[width=0.8\textwidth]{OS_Market_Share.png}
+  	\captionof{figure}{Market Share of mobile operating systems}
+  	\label{osMarketShare}
+  \end{center}
+  \vspace{3mm}
+  
+  
+   \vspace{3mm}
+   \begin{center}
+   	%\centering
+   	\includegraphics[width=0.8\textwidth]{permissionsList1.png}
+   	\captionof{figure}{Top 20 permissions in Android in 2012}
+   	\label{permissionsAndroid}
+   \end{center}
+   \vspace{3mm}
+   
 With the increase in the number of Android malware being released to the wild, their level of sophistication also increased. Android malware detectors used the number of permissions requested by an app to determine its legitimacy. As shown in the fig. ~\ref{permissionsAndroid} obtained from \cite{zhou}, we can see that benign and malicious Android applications have access requests that are very similar.
 
 Due to this, using access requests as a measure for classifying android applications became ineffective. The various types of Android malware can be broadly classified into the following categories, depending on the type of malicious activities they perform \cite{zhou}:
